@@ -14,3 +14,5 @@ contact [info@software-carpentry.org](mailto:info@software-carpentry.org).
 [scipy-page]: http://conference.scipy.org/scipy2013/tutorial_detail.php?id=106
 [Software Carpentry]: http://software-carpentry.org
 [swc-page]: http://swcarpentry.github.io/boot-camps/2013-06-25-scipy/
+
+This is a line added by Pete just to test pushing changes back to GitHub.
