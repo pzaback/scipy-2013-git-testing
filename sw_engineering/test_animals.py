@@ -15,13 +15,7 @@ def test_read_animals():
     assert counts == ref_counts
 
 def test_mean():
-    assert animals.mean([0,1]) == .5
-    assert animals.mean([-4,6]) == 1
-    assert animals.mean([0, 1.5, 4.5]) == 2
-    assert animals.mean([5]) == 5
-    assert animals.mean([-5,-15,-10]) == -10
-    assert animals.mean([1e6,1e7]) == 5.5e6
-    assert animals.mean([-4,2,4,-2]) == 0
+    
 
 
 def test_filter_animals():

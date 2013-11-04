@@ -70,12 +70,11 @@ def mean(nums):
     m : number
 
     """
-    avg=None
-    if len(nums):
-        avg=float(sum(nums))/len(nums)
-    else:
-        print 'error empty list'
-    return avg
+    mean = None
+    sum = 0
+    for num in nums:
+        
+        
 
 
 
