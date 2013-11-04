@@ -15,7 +15,15 @@ def test_read_animals():
     assert counts == ref_counts
 
 def test_mean():
+    ref_ints  = [5, 6, 7, 8, 9]
+    ref_floats = [2.5, 3.5, 4.5]
+    ref_strings = ['nan', 4, 'what', 7]
+
+    assert animals.mean(ref_ints) == 7.0
+    assert animals.mean(ref_floats) == 3.5
     
+
+
 
 
 def test_filter_animals():

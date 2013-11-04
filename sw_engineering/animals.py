@@ -73,7 +73,10 @@ def mean(nums):
     mean = None
     sum = 0
     for num in nums:
-        
+        sum += num
+
+    mean = float(sum) / len(nums)
+    return mean
         
 
 
